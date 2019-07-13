@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shopping-bag{
+    padding: 0 100px;
+    background-color: #ffc32d;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#title{
+    padding:20px 10px 15px;
+}
+#product1{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px grey;
+}
+.products{
+    margin: 10% 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: rgba(255, 2555, 255, .8);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    font-size: 16px;
+}
+#prod1{
+    width: 100px;
+}
+#delete-btn{
+    cursor: pointer;
+    color: red;
+}
+#plus-btn{
+    width: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#minus-btn{
+    width: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#like-btn{
+    cursor: pointer;
+    color: grey;
+    margin: 0 20px;
+}
+.label{
+    font-size: 30px;
+    font-style: oblique;
+}
+.buttons i{
+    font-size: 40px;
+}
+/*PRODUIT2*/
+#delete-btn2{
+    cursor: pointer;
+    color: red;
+}
+#plus-btn2{
+    width: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#minus-btn2{
+    width: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#like-btn2{
+    cursor: pointer;
+    color: grey;
+    margin: 0 20px;
+}
+#prod2{
+    width: 100px;
+}
+#product2{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px grey;
+}
+/*PRODUIT3*/
+#delete-btn3{
+    cursor: pointer;
+    color: red;
+}
+#plus-btn3{
+    width: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#minus-btn3{
+    width: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#like-btn3{
+    cursor: pointer;
+    color: grey;
+    margin: 0 20px;
+}
+#prod3{
+    width: 100px;
+}
+#product3{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px grey;
+}
